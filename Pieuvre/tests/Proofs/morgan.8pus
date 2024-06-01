@@ -1,0 +1,13 @@
+Goal ~(P \/ Q) -> ~P /\ ~Q.
+
+intro h.
+split.
+intro p.
+  apply h.
+  left.
+  assumption.
+intro q.
+  apply h.
+  right.
+  exact q.
+Qed.

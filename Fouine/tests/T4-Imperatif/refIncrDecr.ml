@@ -1,0 +1,1 @@
+let x = ref 5 in let y = ref 5 in incr x ; decr y ; prInt (!x - !y)

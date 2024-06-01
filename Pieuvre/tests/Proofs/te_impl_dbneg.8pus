@@ -1,0 +1,8 @@
+Goal A \/ ~A -> ~~A -> A.
+intros x y.
+elim x.
+intro. assumption.
+intro. elim y. apply h.
+Qed.
+
+

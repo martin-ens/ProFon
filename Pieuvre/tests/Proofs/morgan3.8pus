@@ -1,0 +1,13 @@
+Goal (~P \/ ~Q) -> ~(P /\ Q).
+
+intros ou et.
+elim ou.
+intro np.
+  absurd P.
+  elim et. intros p q. assumption. exact np.
+intro nq.
+  apply nq.
+  elim et.
+  intros p q. assumption.
+Qed.
+

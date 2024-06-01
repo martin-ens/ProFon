@@ -1,0 +1,4 @@
+Goal A -> ~~A.
+intros. absurd A.
+assumption. assumption.
+Qed.

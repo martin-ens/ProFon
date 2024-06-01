@@ -1,0 +1,5 @@
+Goal A -> (A -> B) -> B. 
+intros.
+
+
+apply h0. assumption. Qed.

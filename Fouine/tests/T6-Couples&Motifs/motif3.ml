@@ -1,0 +1,1 @@
+let true,x,2,_,toto = 2 <> 3, -42, 2*1, (fun x -> 2), (prInt (-2)) in prInt (toto*x)

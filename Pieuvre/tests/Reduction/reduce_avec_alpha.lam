@@ -1,0 +1,1 @@
+fun (x:A) => fun (y:A) => (fun (x:B) => (fun (y: B)=> x) ) (y y) x.

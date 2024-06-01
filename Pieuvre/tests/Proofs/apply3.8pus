@@ -1,0 +1,4 @@
+Goal ((A -> A) -> B) -> B.
+intro. apply h.
+intro a. apply a.
+Qed.

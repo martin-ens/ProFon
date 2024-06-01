@@ -1,0 +1,1 @@
+let c = ((fun y -> y + 5) , if true then 7 else 9) in prInt ((fst c) 3)

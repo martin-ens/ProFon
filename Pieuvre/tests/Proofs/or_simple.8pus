@@ -1,0 +1,4 @@
+Goal B -> A \/ B.
+intro.
+right. apply h.
+Qed.

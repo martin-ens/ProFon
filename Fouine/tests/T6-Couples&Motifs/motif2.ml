@@ -1,0 +1,1 @@
+let _ = prInt 2 in let x = ref 2 in let () = x:=3 in let y,z = !x, (incr x ; !x) in let 2,3= 1+1,4-1 in prInt (y+z)

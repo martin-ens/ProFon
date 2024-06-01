@@ -1,0 +1,1 @@
+let f g x = g x in if !(f ref true) then prInt (let r = ref (fun x y-> x || y) in if !r false true then 1 else 2) else prInt 0

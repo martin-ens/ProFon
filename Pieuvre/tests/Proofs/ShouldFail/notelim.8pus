@@ -1,0 +1,4 @@
+Goal A -> B -> C.
+intros.
+elim h0.
+Admitted.

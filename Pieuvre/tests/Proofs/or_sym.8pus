@@ -1,0 +1,6 @@
+Goal A \/ B -> B \/ A.
+intro.
+elim h.
+intro a. right. assumption.
+intro b. left. assumption.
+Qed.

@@ -1,0 +1,1 @@
+let x = ref (prInt 5) in () ; x := 7 ; prInt !x

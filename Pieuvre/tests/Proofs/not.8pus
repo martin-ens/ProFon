@@ -1,0 +1,7 @@
+Goal ~~~A -> ~A.
+intros.
+apply h.
+intros.
+elim h1.
+apply h0.
+Qed.

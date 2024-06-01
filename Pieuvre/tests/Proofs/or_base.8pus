@@ -1,0 +1,5 @@
+Goal A -> C -> A \/ B.
+intros.
+left.
+assumption.
+Qed.

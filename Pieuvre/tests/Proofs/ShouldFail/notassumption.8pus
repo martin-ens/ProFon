@@ -1,0 +1,4 @@
+Goal A -> (A -> B) -> B.
+intros.
+assumption.
+Qed.

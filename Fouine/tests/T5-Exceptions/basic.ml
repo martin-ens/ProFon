@@ -1,0 +1,1 @@
+let f x = if x > 0 then raise (E x) else 0 in let _ = prInt (f (-4)) in prInt (2 - (f 2))

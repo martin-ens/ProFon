@@ -1,0 +1,8 @@
+Goal (A -> B -> C) -> (A -> B -> C).
+intros.
+cut B.
+cut A.
+assumption.
+assumption.
+assumption.
+Qed.

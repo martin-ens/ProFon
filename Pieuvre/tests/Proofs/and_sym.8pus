@@ -1,0 +1,6 @@
+Goal A /\ B -> B /\ A.
+
+intro. split.
+elim h. intros. assumption.
+elim h. intros. assumption.
+Qed.
