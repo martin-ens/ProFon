@@ -66,7 +66,7 @@ let get_input () =
           ("\nWelcome to " ^ purp ^ "ｐ" ^ blue ^ "ｉ" ^ purp ^ "ｅ" ^ blue ^ "ｕ"
          ^ purp ^ "ｖ" ^ blue ^ "ｒ" ^ purp ^ "ｅ" ^ normal
          ^ ".\nYou are running the " ^ teal ^ "𝓞𝓬𝓽𝓸𝓹𝓻𝓸𝓸𝓯©" ^ normal
-         ^ " version made by Loarwenn and m12pp.\n\ (* pseudonyms for privacy *)
+         ^ " version made by Loarwenn and m12pp.\n\
             Enter a goal to start.\n\n" ^ teal ^ ">>> " ^ normal);
       flush stdout;
       let lexbuf = Lexing.from_channel !where_from in
